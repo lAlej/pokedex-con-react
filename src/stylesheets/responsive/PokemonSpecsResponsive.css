@@ -1,0 +1,48 @@
+@media (max-width:1365px) {
+
+    .specContainer {
+        margin: 20px 0 100px 0;
+    }
+
+    .specContainer h1 {
+        font-size: 30px;
+
+    }
+
+    /* .specName {
+        font-size: 30px;
+    } */
+
+    .specPokemon {
+        flex-direction: column;
+    }
+
+    .specImg {
+        width: 65vw;
+        margin-right: 0;
+    }
+
+    .specTypeContainer {
+        margin: 5px 0 10px 0;
+        width: 65vw;
+    }
+
+    .specStats {
+        width: 65vw;
+        font-size: 10px;
+    }
+
+    .specAP {
+        margin: 0;
+    }
+
+    .specBaseStats {
+        margin: 0;
+    }
+
+    
+    .specBaseStats p  {
+        margin-right: 15px;
+    }
+
+}

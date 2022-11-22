@@ -1,0 +1,22 @@
+@media (max-width:1365px) {
+
+    .pokemonContainer {
+        width: 90vw;
+    }
+
+    .pokemonSpecs {
+        width: 38vw;
+    }
+    
+    .specName {
+        font-size: 17px;
+    }
+
+    .specType {
+        width: 100px;
+    }
+
+    .specSprite {
+        width: 30vw;                
+    }
+}

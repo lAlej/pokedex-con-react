@@ -1,0 +1,65 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 20px 0;
+    height: 65px;
+    transition: all .3s;
+}
+
+.formContainer {
+    margin-top: 20px;
+}
+
+.formContainer input {
+    margin: 0 10px;
+    padding: 4px 0;
+    border-radius: 3px;
+}
+
+.formContainer button {
+    padding: 5px 20px;
+    background: none;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 3px;
+}
+
+.error {
+    font-weight: 800;
+    transition: all .3s;
+}
+
+.pokemonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200vh;
+}
+
+.btnCargarMas {
+    padding: 10px;
+    font-weight: 800;
+    background: none;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 3px;
+    margin: 50px;
+    transition: all .3s;
+}
+
+.btnCargarMas:hover {
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+}
+
+.cargando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+

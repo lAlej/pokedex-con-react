@@ -1,0 +1,117 @@
+
+.container {
+    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
+    background-size: cover;
+    border: 1px solid #FFF;
+
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnBack {
+    font-weight: 800;
+    font-size:25px;
+    padding: 5px 20px;
+    background: none;
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 3px;
+}
+
+.btnBack:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.specContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 100px 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.specName {
+    display: block;
+    text-align: center;
+}
+
+.specPokemon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+
+}
+
+.specImg {
+    width: 35vw;
+    margin-right: 50px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+.specTypeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 40vw;
+    height: 7vh;
+    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+.specTypeContainer img {
+    margin-left: 10px;
+    width: 60px;
+}
+
+.specStats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    color: #FFF;
+    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
+    background-color: #30a7d7;
+    border-radius: 10px;
+}
+
+.specAP {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-around;
+    margin: 30px 0;
+    width: 40vw;
+
+}
+
+.specBaseStats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    margin: 20px 0;
+}
+
+.specBaseStats progress, p{
+    display: flex;
+}
+
+.specBaseStats progress {
+    height: 23px;
+    margin: 13px 0;
+}
+
+.specBaseStats p {
+    margin-right: 50px;
+    font-weight: 500;
+}
