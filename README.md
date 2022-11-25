@@ -11,7 +11,7 @@ Este proyecto fue realizado con HTML, CSS, Javascript y ReactJS, utilizando tamb
 - [https://lalej.github.io/pokedex-con-react/](https://lalej.github.io/pokedex-con-react/)
 
 ## Instalación 📀
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
+Este proyecto esta realizado con ReactJS, por lo que es necesario descargarlo e iniciarlo con npm.
 
 ## Contratación 📧
 Si quieres contratarme, puedes escribirme a l.a.esteves999@gmail.com 
